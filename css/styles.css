@@ -179,11 +179,12 @@ td:hover::after {
     border-color: #ad5daa;
   }
 
-  /*to {
+  to {
     border-color: #db7093;
   }
 }
-@keyframes shake-slow {
+
+/*@keyframes shake-slow {
   2% {
     transform: translate(7px, -8px) rotate(0.5deg);
   }
