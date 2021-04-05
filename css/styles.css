@@ -381,12 +381,12 @@ td:hover::after {
     transform: translate(-3px, -9px) rotate(3.5deg);
   }
 
-  /*0%, 100% {
+  0%, 100% {
     transform: translate(0, 0) rotate(0);
   }
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
