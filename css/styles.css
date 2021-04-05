@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,239 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+table {
+  border: 1px solid #db7093;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #db7093;
+  text-align: left;
+  padding: 15px;
+}
+td:hover {
+  animation-name: shake-slow;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+th {
+  border: 1px solid #db7093;
+  text-align: left;
+  padding: 15px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+td {
+  position: relative;
+  margin: 0.5em;
+  border: solid 1px transparent;
+}
+
+td:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: solid 5px #db7093;
+  margin: 5px -10px 5px -10px;
+  z-index: -1;
+  transition: -webkit-transform 0.6s linear;
+  transition: transform 0.6s linear;
+  transition: transform 0.6s linear, -webkit-transform 0.6s linear;
+  -webkit-transform: scale(0.97, 0.93);
+  transform: scale(0.97, 0.93);
+  animation-name: color-shift;
+  animation-duration: 4s;
+}
+
+td:hover::after {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  animation-name: color-shift-back;
+  animation-duration: 4s;
+}
+
+@keyframes color-shift {
+  from {
+    border-color: #db7093;
+  }
+  to {
+    border-color: #ad5daa;
+  }
+}
+@keyframes color-shift-back {
+  from {
+    border-color: #ad5daa;
+  }
+  to {
+    border-color: #db7093;
+  }
+}
+@keyframes shake-slow {
+  2% {
+    transform: translate(7px, -8px) rotate(0.5deg);
+  }
+  4% {
+    transform: translate(-6px, 4px) rotate(3.5deg);
+  }
+  6% {
+    transform: translate(0px, -9px) rotate(-0.5deg);
+  }
+  8% {
+    transform: translate(3px, 5px) rotate(1.5deg);
+  }
+  10% {
+    transform: translate(7px, -4px) rotate(-2.5deg);
+  }
+  12% {
+    transform: translate(-2px, 9px) rotate(0.5deg);
+  }
+  14% {
+    transform: translate(7px, -9px) rotate(-1.5deg);
+  }
+  16% {
+    transform: translate(-3px, 6px) rotate(-1.5deg);
+  }
+  18% {
+    transform: translate(-2px, -5px) rotate(-1.5deg);
+  }
+  20% {
+    transform: translate(7px, 5px) rotate(2.5deg);
+  }
+  22% {
+    transform: translate(7px, 5px) rotate(0.5deg);
+  }
+  24% {
+    transform: translate(10px, -2px) rotate(0.5deg);
+  }
+  26% {
+    transform: translate(7px, -4px) rotate(0.5deg);
+  }
+  28% {
+    transform: translate(6px, 0px) rotate(-1.5deg);
+  }
+  30% {
+    transform: translate(-8px, -6px) rotate(-0.5deg);
+  }
+  32% {
+    transform: translate(8px, 6px) rotate(-2.5deg);
+  }
+  34% {
+    transform: translate(6px, 2px) rotate(2.5deg);
+  }
+  36% {
+    transform: translate(0px, 2px) rotate(2.5deg);
+  }
+  38% {
+    transform: translate(1px, 1px) rotate(2.5deg);
+  }
+  40% {
+    transform: translate(4px, 5px) rotate(-1.5deg);
+  }
+  42% {
+    transform: translate(2px, 8px) rotate(-2.5deg);
+  }
+  44% {
+    transform: translate(-9px, 8px) rotate(-2.5deg);
+  }
+  46% {
+    transform: translate(0px, -3px) rotate(0.5deg);
+  }
+  48% {
+    transform: translate(-2px, 7px) rotate(2.5deg);
+  }
+  50% {
+    transform: translate(-8px, 5px) rotate(-2.5deg);
+  }
+  52% {
+    transform: translate(-3px, -5px) rotate(-1.5deg);
+  }
+  54% {
+    transform: translate(7px, -8px) rotate(-0.5deg);
+  }
+  56% {
+    transform: translate(10px, 10px) rotate(-1.5deg);
+  }
+  58% {
+    transform: translate(9px, 8px) rotate(-2.5deg);
+  }
+  60% {
+    transform: translate(5px, -3px) rotate(0.5deg);
+  }
+  62% {
+    transform: translate(-6px, 0px) rotate(1.5deg);
+  }
+  64% {
+    transform: translate(-7px, 5px) rotate(-1.5deg);
+  }
+  66% {
+    transform: translate(1px, 4px) rotate(2.5deg);
+  }
+  68% {
+    transform: translate(-1px, -5px) rotate(1.5deg);
+  }
+  70% {
+    transform: translate(-6px, 5px) rotate(-0.5deg);
+  }
+  72% {
+    transform: translate(-8px, 5px) rotate(1.5deg);
+  }
+  74% {
+    transform: translate(2px, 0px) rotate(3.5deg);
+  }
+  76% {
+    transform: translate(10px, -4px) rotate(3.5deg);
+  }
+  78% {
+    transform: translate(-8px, 7px) rotate(1.5deg);
+  }
+  80% {
+    transform: translate(2px, 5px) rotate(0.5deg);
+  }
+  82% {
+    transform: translate(3px, 3px) rotate(-1.5deg);
+  }
+  84% {
+    transform: translate(3px, -6px) rotate(2.5deg);
+  }
+  86% {
+    transform: translate(-1px, 6px) rotate(-2.5deg);
+  }
+  88% {
+    transform: translate(6px, 2px) rotate(1.5deg);
+  }
+  90% {
+    transform: translate(5px, 5px) rotate(0.5deg);
+  }
+  92% {
+    transform: translate(2px, -8px) rotate(3.5deg);
+  }
+  94% {
+    transform: translate(3px, 8px) rotate(-1.5deg);
+  }
+  96% {
+    transform: translate(-7px, -5px) rotate(2.5deg);
+  }
+  98% {
+    transform: translate(-3px, -9px) rotate(3.5deg);
+  }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0);
+  }
 }
 
 #contact h1 {
