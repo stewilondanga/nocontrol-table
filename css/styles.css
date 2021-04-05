@@ -157,14 +157,14 @@ td:after {
   animation-duration: 4s;
 }
 
-/*td:hover::after {
+td:hover::after {
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
   animation-name: color-shift-back;
   animation-duration: 4s;
 }
 
-@keyframes color-shift {
+/*@keyframes color-shift {
   from {
     border-color: #db7093;
   }
