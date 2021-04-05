@@ -99,14 +99,14 @@
   transition-delay: 0.4s;
 }
 
-/*table {
+table {
   border: 1px solid #db7093;
   text-align: left;
   border-collapse: collapse;
   width: 100%;
 }
 
-td {
+/*td {
   border: 1px solid #db7093;
   text-align: left;
   padding: 15px;
