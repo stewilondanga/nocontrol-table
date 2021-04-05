@@ -189,10 +189,11 @@ td:hover::after {
     transform: translate(7px, -8px) rotate(0.5deg);
   }
 
-  /*4% {
+  4% {
     transform: translate(-6px, 4px) rotate(3.5deg);
   }
-  6% {
+
+  /*6% {
     transform: translate(0px, -9px) rotate(-0.5deg);
   }
   8% {
