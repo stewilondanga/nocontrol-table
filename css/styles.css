@@ -277,10 +277,11 @@ td:hover::after {
     transform: translate(0px, -3px) rotate(0.5deg);
   }
 
-  /*48% {
+  48% {
     transform: translate(-2px, 7px) rotate(2.5deg);
   }
-  50% {
+
+  /*50% {
     transform: translate(-8px, 5px) rotate(-2.5deg);
   }
   52% {
