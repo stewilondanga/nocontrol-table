@@ -185,10 +185,11 @@ td:hover::after {
 }
 
 @keyframes shake-slow {
-  /*2% {
+  2% {
     transform: translate(7px, -8px) rotate(0.5deg);
   }
-  4% {
+
+  /*4% {
     transform: translate(-6px, 4px) rotate(3.5deg);
   }
   6% {
