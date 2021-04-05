@@ -137,7 +137,7 @@ td {
   border: solid 1px transparent;
 }
 
-/*td:after {
+td:after {
   content: "";
   display: block;
   position: absolute;
@@ -157,7 +157,7 @@ td {
   animation-duration: 4s;
 }
 
-td:hover::after {
+/*td:hover::after {
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
   animation-name: color-shift-back;
