@@ -106,12 +106,13 @@ table {
   width: 100%;
 }
 
-/*td {
+td {
   border: 1px solid #db7093;
   text-align: left;
   padding: 15px;
 }
-td:hover {
+
+/*td:hover {
   animation-name: shake-slow;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
