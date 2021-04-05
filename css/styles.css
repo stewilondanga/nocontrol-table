@@ -164,8 +164,8 @@ td:hover::after {
   animation-duration: 4s;
 }
 
-/*@keyframes color-shift {
-  from {
+@keyframes color-shift {
+  /*  from {
     border-color: #db7093;
   }
   to {
