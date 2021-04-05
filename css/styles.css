@@ -169,11 +169,12 @@ td:hover::after {
     border-color: #db7093;
   }
 
-  /*to {
+  to {
     border-color: #ad5daa;
   }
 }
-@keyframes color-shift-back {
+
+/*@keyframes color-shift-back {
   from {
     border-color: #ad5daa;
   }
