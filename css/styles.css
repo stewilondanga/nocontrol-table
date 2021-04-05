@@ -112,14 +112,14 @@ td {
   padding: 15px;
 }
 
-/*td:hover {
+td:hover {
   animation-name: shake-slow;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
-th {
+/*th {
   border: 1px solid #db7093;
   text-align: left;
   padding: 15px;
