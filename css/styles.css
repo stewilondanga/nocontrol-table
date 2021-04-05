@@ -125,14 +125,13 @@ th {
   padding: 15px;
 }
 
-/*
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-td {
+/*td {
   position: relative;
   margin: 0.5em;
   border: solid 1px transparent;
