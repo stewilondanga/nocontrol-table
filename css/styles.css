@@ -131,13 +131,13 @@ th {
   box-sizing: border-box;
 }
 
-/*td {
+td {
   position: relative;
   margin: 0.5em;
   border: solid 1px transparent;
 }
 
-td:after {
+/*td:after {
   content: "";
   display: block;
   position: absolute;
