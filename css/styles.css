@@ -165,10 +165,11 @@ td:hover::after {
 }
 
 @keyframes color-shift {
-  /*  from {
+  from {
     border-color: #db7093;
   }
-  to {
+
+  /*to {
     border-color: #ad5daa;
   }
 }
