@@ -119,12 +119,13 @@ td:hover {
   animation-iteration-count: infinite;
 }
 
-/*th {
+th {
   border: 1px solid #db7093;
   text-align: left;
   padding: 15px;
 }
 
+/*
 *,
 *:before,
 *:after {
